@@ -1,6 +1,6 @@
 /**
- * Alipay.com Inc.
- * Copyright (c) 2004-2018 All Rights Reserved.
+ * Fayuan.com Inc.
+ * Copyright (c) 2017-2018 All Rights Reserved.
  */
 package no001_Enum;
 
