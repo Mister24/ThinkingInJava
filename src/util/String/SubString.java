@@ -4,6 +4,9 @@
  */
 package util.String;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  *
  * @author mr.24
@@ -15,6 +18,11 @@ public class SubString {
 
         String resultString = str.substring(str.indexOf("1"), str.lastIndexOf("9"));
         String resultString1 = str.substring(str.indexOf("1"), str.indexOf("9") + 1);
+
+        Pattern pattern = Pattern.compile("1(\\d+)9$");
+        Matcher matcher = pattern.matcher(str);
+        System.out.println(matcher.group(0));
+
         System.out.println(resultString);
         System.out.println(resultString1);
     }
