@@ -8,6 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * 用string的subString方法实现简单正则表达式功能
  *
  * @author mr.24
  * @version $Id: SubString.java, v 0.1 2018年02月04日 上午11:31 mr.24 Exp $
