@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package no003_Stream;
+package com.fayuan.basicjava.no003_Stream;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -15,7 +15,7 @@ import java.io.FileNotFoundException;
 public class ReadByteStram {
     public static void main(String[] args) {
         try {
-            FileInputStream fileInputStream = new FileInputStream("ThinkingInJava/src/no003_Stream/txt.txt");
+            FileInputStream fileInputStream = new FileInputStream("ThinkingInJava/src/com.fayuan.basicjava.no003_Stream/txt.txt");
 
         } catch(FileNotFoundException exception) {
             exception.printStackTrace();

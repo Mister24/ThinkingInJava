@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package interview.com.fayuan.singleton;
+package com.fayuan.interview.singleton;
 
 /**
  * 单线程懒汉式（可以延迟加载，但线程不安全）

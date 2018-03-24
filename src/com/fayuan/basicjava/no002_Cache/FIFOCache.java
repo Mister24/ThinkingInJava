@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package no002_Cache;
+package com.fayuan.basicjava.no002_Cache;
 
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;

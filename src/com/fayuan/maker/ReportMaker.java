@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package maker;
+package com.fayuan.maker;
 import java.lang.Math;
 /**
  *

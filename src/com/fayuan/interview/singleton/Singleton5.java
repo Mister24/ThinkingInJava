@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package interview.com.fayuan.singleton;
+package com.fayuan.interview.singleton;
 
 /**
  * 静态内部类写法的单例模式
