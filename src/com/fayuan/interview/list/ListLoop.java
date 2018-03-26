@@ -4,6 +4,8 @@
  */
 package com.fayuan.interview.list;
 
+import com.fayuan.interview.list.listnode.ListNode;
+
 import java.util.HashMap;
 
 /**

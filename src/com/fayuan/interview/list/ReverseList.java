@@ -4,7 +4,7 @@
  */
 package com.fayuan.interview.list;
 
-import javax.xml.soap.Node;
+import com.fayuan.interview.list.listnode.ListNode;
 
 /**
  * 链表翻转

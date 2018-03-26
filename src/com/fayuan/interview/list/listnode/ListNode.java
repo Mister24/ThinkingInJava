@@ -2,9 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.list;
-
-import java.util.List;
+package com.fayuan.interview.list.listnode;
 
 /**
  * 节点类
@@ -15,12 +13,12 @@ import java.util.List;
 public class ListNode {
 
     //节点的值
-    int val;
+    public int val;
 
     //下一节点
-    ListNode next;
+    public ListNode next;
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
