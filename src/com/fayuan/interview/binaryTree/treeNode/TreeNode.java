@@ -13,15 +13,15 @@ package com.fayuan.interview.binaryTree.treeNode;
 public class TreeNode {
 
     //节点值
-    int val;
+    public int val;
 
     //左子树
-    TreeNode left = null;
+    public TreeNode left = null;
 
     //右子树
-    TreeNode right = null;
+    public TreeNode right = null;
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
