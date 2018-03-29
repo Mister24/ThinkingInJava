@@ -2,7 +2,9 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.binaryTree.treeNode;
+package com.fayuan.interview.binaryTree.algorithm;
+
+import com.fayuan.interview.binaryTree.treeNode.TreeNode;
 
 /**
  * 获取第k层节点总个数
