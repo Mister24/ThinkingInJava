@@ -44,7 +44,12 @@
             <version>3.4</version>
         </dependency>
 
-
+        <!-- https://mvnrepository.com/artifact/com.hankcs/hanlp -->
+        <dependency>
+            <groupId>com.hankcs</groupId>
+            <artifactId>hanlp</artifactId>
+            <version>portable-1.6.4</version>
+        </dependency>
 
     </dependencies>
     
