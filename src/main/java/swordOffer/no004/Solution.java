@@ -1,6 +1,5 @@
 package swordOffer.no004;
 
-import com.fayuan.swordOffer.no003.ListNode;
 import sun.reflect.generics.tree.Tree;
 
 /**
