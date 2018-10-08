@@ -4,7 +4,6 @@
  */
 package com.fayuan.interview.binaryTree.algorithm;
 
-import apple.laf.JRSUIUtils.Tree;
 import com.fayuan.interview.binaryTree.treeNode.TreeNode;
 
 import java.util.LinkedList;

@@ -7,7 +7,7 @@ package swordOffer.no019;
 import java.util.ArrayList;
 
 public class Solution {
-    public ArrayList<Integer> printMatrix(int [][] matrix) {
-        int num = matrix.length;
-    }
+    //public ArrayList<Integer> printMatrix(int [][] matrix) {
+    //    int num = matrix.length;
+    //}
 }

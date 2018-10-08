@@ -52,24 +52,26 @@
             <version>portable-1.6.4</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
-            <groupId>org.junit</groupId>
-            <artifactId>com.springsource.org.junit</artifactId>
-            <version>4.8.2</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
         <dependency>
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>1.6.1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
         <dependency>
-            <groupId>jsch</groupId>
+            <groupId>com.jcraft</groupId>
             <artifactId>jsch</artifactId>
             <version>0.1.42</version>
         </dependency>
+
 
         <dependency>
             <groupId>com.google.protobuf</groupId>
