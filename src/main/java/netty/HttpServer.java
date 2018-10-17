@@ -45,7 +45,7 @@ public class HttpServer {
 
         //创建EventLoopGroup
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
-        EventLoopGroup workerLoopGroup = new NioEventLoopGroup()
+        EventLoopGroup workerLoopGroup = new NioEventLoopGroup();
 
         try {
 
