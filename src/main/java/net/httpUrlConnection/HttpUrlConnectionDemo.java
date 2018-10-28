@@ -4,7 +4,12 @@
  */
 package net.httpUrlConnection;
 
+import org.junit.Test;
+
+import java.io.BufferedReader;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
@@ -21,8 +26,10 @@ public class HttpUrlConnectionDemo {
 
     public static void main(String[] args) {
 
-        String getRequest = get();
-        System.out.println(getRequest);
+        String getResponstByRequest = get();
+
+        String getResponstByPost = post();
+        System.out.println(getResponstByPost);
     }
 
     /**
@@ -65,6 +72,68 @@ public class HttpUrlConnectionDemo {
         }
 
         return res;
+    }
+
+    /**
+     *
+     * post方式
+     * */
+    @Test
+    public static String post() {
+
+        String msg = "";
+
+        try {
+            URL url = new URL("https://httpbin.org/post");
+            String bodyString = "password=e10adc3949ba59abbe56e057f20f883e&amp;username=test3";
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            // 请求方式
+            connection.setRequestMethod("POST");
+
+            // 超时时间
+            //connection.setConnectTimeout(5 * 1000);
+
+            // 是否输出
+            connection.setDoOutput(true);
+
+            // 是否读入
+            //connection.setDoInput(true);
+
+            // 是否使用缓存
+            //connection.setUseCaches(false);
+
+            // 是否应该自动执行 HTTP 重定向
+            //connection.setInstanceFollowRedirects(true);
+
+            // 连接
+            //connection.connect();
+
+            OutputStream outputStream = connection.getOutputStream();
+            outputStream.write(bodyString.getBytes("utf-8"));
+            outputStream.flush();
+            outputStream.close();
+
+            int code = connection.getResponseCode();
+            if (code == HttpURLConnection.HTTP_OK) {
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+
+                String line = bufferedReader.readLine();
+                while (line != null) {
+                    msg += line + "\n";
+
+                }
+
+                bufferedReader.close();
+            }
+
+            // 关闭连接
+            connection.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return msg;
     }
 
 
