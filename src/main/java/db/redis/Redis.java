@@ -152,10 +152,5 @@ public class Redis {
         System.out.println("------------------");
         jedis.hincrBy("hash", "key4", 2);
         System.out.println(jedis.hvals("hash"));
-
-
-
     }
-
-
 }
