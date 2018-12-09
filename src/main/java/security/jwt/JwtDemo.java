@@ -16,6 +16,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * jwt的使用
+ *
  * jwt由三部分组成：header、payload、signature
  *
  * 一、header包含2部分信息：类型和加密算法

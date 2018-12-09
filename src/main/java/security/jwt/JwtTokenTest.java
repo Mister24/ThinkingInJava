@@ -5,11 +5,11 @@
 package security.jwt;
 
 import com.auth0.jwt.interfaces.Claim;
-
-import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * jwt的测试类
+ *
  * @author mr.24
  * @version Id: JwtTokenTest, v 1.0 2018/12/10 上午12:37 Exp $$
  */
