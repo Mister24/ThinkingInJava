@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2018 All Rights Reserved.
  */
-package security.shiro;
+package security.shiro.defineRealm;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.shiro.SecurityUtils;
@@ -14,37 +14,31 @@ import org.junit.Test;
 
 /**
  * @author mr.24
- * @version Id: JdbcRealmTest, v 1.0 2018/12/16 下午10:02 Exp $$
+ * @version Id: DefineRealmTest, v 1.0 2018/12/19 上午1:59 Exp $$
  */
-public class JdbcRealmTest {
+public class DefineRealmTest {
     @Test
     public void testAuthentication() {
 
-        JdbcRealm jdbcRealm = new JdbcRealm();
-
-        DruidDataSource dataSource = new DruidDataSource();
-
-        {
-            dataSource.setUrl("jdbc:mysql://localhost:3306/test");
-            dataSource.setUsername("root");
-            dataSource.setPassword("fzw158..");
-
-            dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        }
+        DefineRealm defineRealm = new DefineRealm();
 
         //1. 构建SecurityManager
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();
-        defaultSecurityManager.setRealm(jdbcRealm);
+        defaultSecurityManager.setRealm(defineRealm);
 
         // 2. 主体提交认证请求
         SecurityUtils.setSecurityManager(defaultSecurityManager);
         Subject subject = SecurityUtils.getSubject();
 
-        UsernamePasswordToken token = new UsernamePasswordToken("Mr.24", "24");
+        UsernamePasswordToken token = new UsernamePasswordToken("mr.24", "24");
 
         subject.login(token);
 
         System.out.println("isAuthenticated : " + subject.isAuthenticated());
+
+        subject.checkRoles("admin");
+
+        subject.checkPermissions("user:delete", "user:add");
 
     }
 }
