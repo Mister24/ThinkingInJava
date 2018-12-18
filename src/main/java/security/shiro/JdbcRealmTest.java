@@ -27,7 +27,7 @@ public class JdbcRealmTest {
         {
             dataSource.setUrl("jdbc:mysql://localhost:3306/test");
             dataSource.setUsername("root");
-            dataSource.setPassword("fzw158..");
+            dataSource.setPassword("hello");
 
             dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         }
