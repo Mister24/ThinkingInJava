@@ -4,7 +4,6 @@
  */
 package lambdas.stream;
 
-import com.alibaba.druid.sql.visitor.functions.Char;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

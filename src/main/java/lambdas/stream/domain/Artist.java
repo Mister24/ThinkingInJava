@@ -2,23 +2,27 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package lambdas.stream;
+package lambdas.stream.domain;
 
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
+ * 艺术家
  *
  * @author fayuan.fzw
  * @version $Id: Artist.java, v 0.1 2018年10月21日 上午10:52 fayuan.fzw Exp $
  */
 public class Artist {
 
+    /** 名字 */
     private String name;
 
+    /** 成员 */
     private List<Artist> members;
 
+    /** 国籍 */
     private String nationality;
 
     public Artist(String name, String nationality) {
