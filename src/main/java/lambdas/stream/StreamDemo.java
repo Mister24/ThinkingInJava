@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 /**
  *
- * @author fayuan.fzw
+ * @author mr.24
  * @version $Id: StreamDemo.java, v 0.1 2018年10月21日 上午10:50 fayuan.fzw Exp $
  */
 public class StreamDemo {
@@ -23,7 +23,7 @@ public class StreamDemo {
     }
 
     @Test
-    public void collectTest() {
+    public static void collectTest() {
 
         List<String> collected = Stream.of("a", "b", "c").collect(Collectors.toList());
 
