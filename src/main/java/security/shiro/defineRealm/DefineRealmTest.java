@@ -6,6 +6,7 @@ package security.shiro.defineRealm;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.junit.Test;
@@ -23,6 +24,11 @@ public class DefineRealmTest {
         //1. 构建SecurityManager
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();
         defaultSecurityManager.setRealm(defineRealm);
+
+        HashedCredentialsMatcher matcher = new HashedCredentialsMatcher();
+        matcher.setHashAlgorithmName("md5");
+        matcher.setHashIterations(1);
+        defineRealm.setCredentialsMatcher(matcher);
 
         // 2. 主体提交认证请求
         SecurityUtils.setSecurityManager(defaultSecurityManager);

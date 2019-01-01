@@ -10,8 +10,12 @@ import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
+import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,7 +30,9 @@ public class DefineRealm extends AuthorizingRealm {
 
     Map<String, String> userInfo = new HashMap<>();
     {
-        userInfo.put("mr.24", "24");
+        // 1ff1de774005f8da13f42943881c655f
+        // d5e2fbef30a4eb668a203060ec8e5eef
+        userInfo.put("mr.24", "d5e2fbef30a4eb668a203060ec8e5eef");
         userInfo.put("kobe", "24");
         userInfo.put("MJ", "23");
     }
@@ -45,6 +51,9 @@ public class DefineRealm extends AuthorizingRealm {
         }
 
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo("mr.24", password, "defineRealm");
+
+        // 加盐
+        authenticationInfo.setCredentialsSalt(ByteSource.Util.bytes("23"));
 
         return authenticationInfo;
     }
@@ -107,5 +116,12 @@ public class DefineRealm extends AuthorizingRealm {
      * */
     private String getPasswordByUserName(String userName) {
         return userInfo.get(userName);
+    }
+
+    @Test
+    public void testMd5() {
+        // 加密+加盐
+        Md5Hash md5Hash = new Md5Hash("24", "23");
+        Assert.assertNotNull(md5Hash);
     }
 }
