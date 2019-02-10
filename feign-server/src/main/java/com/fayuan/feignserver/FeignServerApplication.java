@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FeignServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FeignServerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(FeignServerApplication.class, args);
+    }
 
 }
 
