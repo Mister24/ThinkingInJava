@@ -20,6 +20,6 @@ public class RequestController {
 
     @RequestMapping("/hi")
     public String home(@RequestParam String name) {
-        return "hi" + name + ", I am port:" + port;
+        return "hi " + name + ", I am port:" + port;
     }
 }
