@@ -21,7 +21,7 @@ import com.fayuan.aop.interceptor.Interceptor;
  */
 public class ProxyBeanFactory {
 
-    public static <T> T getBean(T obj, Interceptor interceptor) {
-        return (T) ProxyBeanUtil.getBean(obj, interceptor);
-    }
+//    public static <T> T getBean(T obj, Interceptor interceptor) {
+//        return (T) ProxyBeanUtil.getBean(obj, interceptor);
+//    }
 }

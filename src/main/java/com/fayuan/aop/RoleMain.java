@@ -16,20 +16,20 @@ import com.fayuan.aop.service.impl.RoleServiceImpl;
  */
 public class RoleMain {
     public static void main(String[] args) {
-        RoleService roleService = new RoleServiceImpl();
-
-        Interceptor interceptor = new RoleInterceptor();
-
-        RoleService proxy = ProxyBeanFactory.getBean(roleService, interceptor);
-
-        Role role = new Role(2L, "kobe", "note");
-
-        proxy.printRole(role);
-
-        System.out.println("测试afterthrowing方法");
-
-        role = null;
-
-        proxy.printRole(role);
+//        RoleService roleService = new RoleServiceImpl();
+//
+//        Interceptor interceptor = new RoleInterceptor();
+//
+////        RoleService proxy = ProxyBeanFactory.getBean(roleService, interceptor);
+//
+//        Role role = new Role(2L, "kobe", "note");
+//
+//        proxy.printRole(role);
+//
+//        System.out.println("测试afterthrowing方法");
+//
+//        role = null;
+//
+//        proxy.printRole(role);
     }
 }
