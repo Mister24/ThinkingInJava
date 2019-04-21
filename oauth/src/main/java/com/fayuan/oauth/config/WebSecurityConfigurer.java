@@ -12,6 +12,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 /**
+ * 用户配置
+ *
  * @author mr.24
  * @version Id: WebSecurityConfigurer, v 1.0 2019-04-20 21:26 Exp $$
  */
@@ -33,10 +35,14 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder builder) throws Exception {
         builder.inMemoryAuthentication()
+
+                // 用户
                 .withUser("john.carnell")
                 .password("password1")
                 .roles("USER")
                 .and()
+
+                // 用户及超级权限账户
                 .withUser("william.woodward")
                 .password("password2")
                 .roles("USER", "ADMIN");
