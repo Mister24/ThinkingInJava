@@ -17,6 +17,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * OAuth2启动类
+ *
  * @author mr.24
  * @version Id: Oauth2Application, v 1.0 2019-04-20 15:40 Exp $$
  */

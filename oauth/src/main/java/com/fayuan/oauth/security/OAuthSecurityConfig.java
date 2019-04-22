@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.oauth.config;
+package com.fayuan.oauth.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -24,12 +24,9 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 public class OAuthSecurityConfig extends AuthorizationServerConfigurerAdapter {
     @Autowired
     private AuthenticationManager        authenticationManager;
-//    @Autowired
-//    private UserDetailsService           userDetailsService;
 
-//    @Override
-//    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-//    }
+    @Autowired
+    private UserDetailsService           userDetailsService;
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
@@ -50,5 +47,7 @@ public class OAuthSecurityConfig extends AuthorizationServerConfigurerAdapter {
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+        endpoints.authenticationManager(authenticationManager)
+                .userDetailsService(userDetailsService);
     }
 }

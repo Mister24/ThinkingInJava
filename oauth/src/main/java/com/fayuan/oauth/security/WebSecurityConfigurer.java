@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.oauth.config;
+package com.fayuan.oauth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -40,6 +40,7 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
                 .withUser("john.carnell")
                 .password("password1")
                 .roles("USER")
+
                 .and()
 
                 // 用户及超级权限账户
