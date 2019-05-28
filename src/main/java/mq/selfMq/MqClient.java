@@ -18,11 +18,21 @@ import java.net.Socket;
  */
 public class MqClient {
 
-    public static void produce(String message) throws Exception {
+    /**
+     * 生产消息
+     *
+     * @param message 消息内容
+     * */
+    public void produce(String message) throws Exception {
 
         Socket socket = new Socket(InetAddress.getLocalHost(), BrokerServer.SERVICE_PORT);
-        try {
-            PrintWriter out = new PrintWriter(socket.getOutputStream());
+        // try () {} 的使用，()中的代码一般放的是对资源的申请，
+        // 如果{}中的代码出项了异常，（）中的资源就会被关闭，
+        // resources是在程序结束后必须关闭的对象，使用这种方式就不需要再手动关闭资源，
+        // 这在inputstream和outputstream的使用中会很方便。
+        try (
+            PrintWriter out = new PrintWriter(socket.getOutputStream())
+        ) {
             out.println(message);
             out.flush();
         } catch (Exception e) {
@@ -30,12 +40,17 @@ public class MqClient {
         }
     }
 
-    public static String consume() throws Exception {
+    /**
+     * 消费消息
+     *
+     * 消息内容
+     * */
+    public String consume() throws Exception {
         Socket socket = new Socket(InetAddress.getLocalHost(), BrokerServer.SERVICE_PORT);
-        try {
-            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            PrintWriter out = new PrintWriter(socket.getOutputStream());
-
+        try (
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                PrintWriter out = new PrintWriter(socket.getOutputStream());
+        ) {
             // 先向消息队列发送字符串"CONSUME"标识消费
             out.println("CONSUME");
             out.flush();
