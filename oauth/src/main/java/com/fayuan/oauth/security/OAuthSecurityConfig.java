@@ -5,6 +5,7 @@
 package com.fayuan.oauth.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.method.P;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -29,6 +30,12 @@ public class OAuthSecurityConfig extends AuthorizationServerConfigurerAdapter {
     private UserDetailsService           userDetailsService;
 
     @Override
+    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+        security.tokenKeyAccess("permitAll()").checkTokenAccess("isAuthenticated()");
+    }
+
+    //配置客户端认证
+    @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         // 使用in-memory存储
         clients.inMemory()
@@ -45,9 +52,25 @@ public class OAuthSecurityConfig extends AuthorizationServerConfigurerAdapter {
                 .scopes("webclient", "mobileclient");
     }
 
+
+    //配置token的数据源、自定义的tokenServices等信息
+//    @Override
+//    public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+//        endpoints.authenticationManager(authenticationManager)
+//                .tokenStore(tokenStore(dataSource))
+//                .tokenServices(authorizationServerTokenServices())
+//                .accessTokenConverter(accessTokenConverter())
+//                .exceptionTranslator(webResponseExceptionTranslator);
+//    }
+
+    XmlBeanFactory xmlBeanFactory = new XmlBeanFactory()
+
+
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints.authenticationManager(authenticationManager)
                 .userDetailsService(userDetailsService);
     }
+
+
 }
