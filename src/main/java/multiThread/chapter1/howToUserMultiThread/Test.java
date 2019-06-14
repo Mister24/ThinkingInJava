@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package multiThread.chapter1.chapter1_2_howToUserMultiThread;
+package multiThread.chapter1.howToUserMultiThread;
 
 /**
  * @author mr.24
