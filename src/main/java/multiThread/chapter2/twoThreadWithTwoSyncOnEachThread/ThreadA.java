@@ -1,4 +1,4 @@
-package multiThread.chapter2.twoThreadWithSync;
+package multiThread.chapter2.twoThreadWithTwoSyncOnEachThread;
 
 /**
  * @author mr.24

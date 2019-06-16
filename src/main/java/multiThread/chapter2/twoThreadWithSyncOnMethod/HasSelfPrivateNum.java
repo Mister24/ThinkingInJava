@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package multiThread.chapter2.twoThreadWithSync;
+package multiThread.chapter2.twoThreadWithSyncOnMethod;
 
 /**
  * 使用synchronized关键字修饰方法
