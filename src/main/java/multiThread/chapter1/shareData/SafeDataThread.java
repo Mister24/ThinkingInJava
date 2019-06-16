@@ -13,7 +13,8 @@ public class SafeDataThread extends Thread {
 
     public SafeDataThread(String name) {
         super();
-        this.setName(name); // 设置线程名称
+        // 设置线程名称
+        this.setName(name);
     }
 
     @Override
