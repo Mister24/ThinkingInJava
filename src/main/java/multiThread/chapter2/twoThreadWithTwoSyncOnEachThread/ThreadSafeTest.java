@@ -19,7 +19,7 @@ public class ThreadSafeTest {
 
     @Test
     public void testSafe() {
-        // 只有一个实例化对象，不同线程均可以访问
+        // 不同线程使用不同的实例化对象，不会有"非线程安全"问题
         HasSelfPrivateNum num = new HasSelfPrivateNum();
         HasSelfPrivateNum num1 = new HasSelfPrivateNum();
 

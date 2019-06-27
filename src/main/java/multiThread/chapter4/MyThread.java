@@ -8,5 +8,16 @@ package multiThread.chapter4;
  * @author mr.24
  * @version Id: MyThread, v 1.0 2019-06-27 00:32 Exp $$
  */
-public class MyThread {
+public class MyThread implements Runnable {
+
+    private MyService myService;
+
+    public MyThread(MyService myService) {
+        this.myService = myService;
+    }
+
+    @Override
+    public void run() {
+       myService.testMethod();
+    }
 }
