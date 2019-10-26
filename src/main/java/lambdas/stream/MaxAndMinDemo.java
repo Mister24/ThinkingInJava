@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author mr.24
@@ -60,6 +61,11 @@ public class MaxAndMinDemo {
         tracks.add(new Track("wilson", 234));
         tracks.add(new Track("Kobe", 233));
         tracks.add(new Track("James", 231));
+
+        tracks.stream().filter(c -> c.getName() != "123")
+                .findFirst();
+
+        System.out.println(tracks);
 
         boolean result = tracks.stream()
                 .anyMatch(data -> data.getLength() > 12);
