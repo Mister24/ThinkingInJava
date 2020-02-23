@@ -2,10 +2,10 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package lambdas.chapter4_stream.services.impl;
+package lambdas.chapter4_stream.service.impl;
 
 import lambdas.chapter4_stream.domain.Dish;
-import lambdas.chapter4_stream.services.CaloriesService;
+import lambdas.chapter4_stream.service.CaloriesService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

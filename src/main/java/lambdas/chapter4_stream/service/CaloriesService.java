@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package lambdas.chapter4_stream.services;
+package lambdas.chapter4_stream.service;
 
 import lambdas.chapter4_stream.domain.Dish;
 
