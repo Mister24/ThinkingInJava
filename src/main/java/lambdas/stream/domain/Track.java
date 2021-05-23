@@ -5,6 +5,8 @@
 package lambdas.stream.domain;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * 曲目
@@ -13,12 +15,18 @@ import lombok.Data;
  * @version Id: Track, v 1.0 2018/12/31 上午10:13 Exp $$
  */
 @Data
+@Setter
+@Getter
 public class Track {
-    /** 名称 */
+    /**
+     * 名称
+     */
     private String name;
 
-    /** 时长（毫秒） */
-    private int    length;
+    /**
+     * 时长（毫秒）
+     */
+    private int length;
 
     public Track(String name, int length) {
         this.name = name;
