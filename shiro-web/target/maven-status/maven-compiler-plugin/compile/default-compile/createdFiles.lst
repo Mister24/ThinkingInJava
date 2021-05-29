@@ -1,0 +1,3 @@
+com/fayuan/domain/User.class
+com/fayuan/controller/UserController.class
+com/fayuan/shiro/realm/CustomRealm.class

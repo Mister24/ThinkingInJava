@@ -63,7 +63,7 @@ public class OAuthSecurityConfig extends AuthorizationServerConfigurerAdapter {
 //                .exceptionTranslator(webResponseExceptionTranslator);
 //    }
 
-    XmlBeanFactory xmlBeanFactory = new XmlBeanFactory()
+//    XmlBeanFactory xmlBeanFactory = new XmlBeanFactory()
 
 
     @Override
