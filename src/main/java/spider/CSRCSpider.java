@@ -64,7 +64,7 @@ public class CSRCSpider implements PageProcessor {
         if (page.getResultItems().get("div") != null) {
             System.out.println(page.getResultItems().toString());
 
-            String path = "/Users/mr.24/antFin/codeTrunk/ThinkingInJava/src/main/java/spider/url.txt";
+            String path = "/Users/mr.24/fzw/codeTrunk/ThinkingInJava/src/main/java/spider/url.txt";
             BufferedWriter out = null;
             try {
                 out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(path, true)));
@@ -82,7 +82,7 @@ public class CSRCSpider implements PageProcessor {
         //List<String> detailUrls = page.getUrl().regex("http://www.csrc.gov.cn/pub/newsite/fxjgb/scgkfxfkyj/[0-9]{6}/.*").all();
 
 //        for (String list : detailUrls) {
-//            String path = "/Users/mr.24/antFin/codeTrunk/ThinkingInJava/src/main/java/spider/url.txt";
+//            String path = "/Users/mr.24/fzw/codeTrunk/ThinkingInJava/src/main/java/spider/url.txt";
 //            BufferedWriter out = null;
 //            try {
 //                out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(path, true)));
@@ -105,7 +105,7 @@ public class CSRCSpider implements PageProcessor {
     public static void main(String[] args) {
         Spider.create(new CSRCSpider())
                 .addUrl("http://www.csrc.gov.cn/pub/newsite/fxjgb/scgkfxfkyj/index.html")
-                //.addPipeline(new JsonFilePipeline("/Users/mr.24/antFin/codeTrunk/ThinkingInJava/src/main/java/spider"))
+                //.addPipeline(new JsonFilePipeline("/Users/mr.24/fzw/codeTrunk/ThinkingInJava/src/main/java/spider"))
                 .thread(5)
                 .run();
     }

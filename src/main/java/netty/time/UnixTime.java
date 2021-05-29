@@ -8,8 +8,8 @@ import java.util.Date;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: UnixTime.java, v 0.1 2018年10月16日 下午9:47 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: UnixTime.java, v 0.1 2018年10月16日 下午9:47 fzw.fzw Exp $
  */
 public class UnixTime {
     private final long value;

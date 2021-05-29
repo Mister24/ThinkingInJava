@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.list;
+package com.fzw.interview.list;
 
-import com.fayuan.interview.list.listnode.ListNode;
+import com.fzw.interview.list.listnode.ListNode;
 
 /**
  * 链表翻转
  *
- * @author fayuan.fzw
- * @version $Id: ReverseList.java, v 0.1 2018年03月26日 下午7:29 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ReverseList.java, v 0.1 2018年03月26日 下午7:29 fzw.fzw Exp $
  */
 public class ReverseList {
 

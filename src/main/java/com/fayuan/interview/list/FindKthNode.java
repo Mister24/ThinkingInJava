@@ -1,18 +1,18 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.list;
+package com.fzw.interview.list;
 
-import com.fayuan.interview.list.listnode.ListNode;
+import com.fzw.interview.list.listnode.ListNode;
 
 import java.util.List;
 
 /**
  * 查找单链表中的倒数第k个结点
  *
- * @author fayuan.fzw
- * @version $Id: FindKthNode.java, v 0.1 2018年03月27日 上午1:23 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: FindKthNode.java, v 0.1 2018年03月27日 上午1:23 fzw.fzw Exp $
  */
 public class FindKthNode {
 

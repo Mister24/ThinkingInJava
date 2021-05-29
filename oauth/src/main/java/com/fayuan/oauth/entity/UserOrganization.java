@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.oauth.entity;
+package com.fzw.oauth.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Id;

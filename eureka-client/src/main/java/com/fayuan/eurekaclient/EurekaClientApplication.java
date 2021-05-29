@@ -1,4 +1,4 @@
-package com.fayuan.eurekaclient;
+package com.fzw.eurekaclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

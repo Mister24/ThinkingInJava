@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.result;
+package com.fzw.result;
 
 /**
  * 错误码类型
  *
- * @author fayuan.fzw
- * @version $Id: CodeType.java, v 0.1 2018年06月19日 下午10:37 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: CodeType.java, v 0.1 2018年06月19日 下午10:37 fzw.fzw Exp $
  */
 public interface CodeType {
 

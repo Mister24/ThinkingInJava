@@ -1,10 +1,10 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.binaryTree.algorithm;
+package com.fzw.interview.binaryTree.algorithm;
 
-import com.fayuan.interview.binaryTree.treeNode.TreeNode;
+import com.fzw.interview.binaryTree.treeNode.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Stack;
@@ -16,8 +16,8 @@ import java.util.Stack;
  * 3.后序遍历（递归+非递归）
  * 4.层次遍历
  *
- * @author fayuan.fzw
- * @version $Id: Travel.java, v 0.1 2018年03月29日 下午7:07 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Travel.java, v 0.1 2018年03月29日 下午7:07 fzw.fzw Exp $
  */
 public class Travel {
 

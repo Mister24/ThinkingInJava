@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.file;
+package com.fzw.file;
 
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
@@ -16,8 +16,8 @@ import java.util.Properties;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: SFTPHelper.java, v 0.1 2018年06月22日 下午3:48 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: SFTPHelper.java, v 0.1 2018年06月22日 下午3:48 fzw.fzw Exp $
  */
 public class SFTPHelper {
 

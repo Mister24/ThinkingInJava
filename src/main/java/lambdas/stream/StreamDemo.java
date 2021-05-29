@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 /**
  *
  * @author mr.24
- * @version $Id: StreamDemo.java, v 0.1 2018年10月21日 上午10:50 fayuan.fzw Exp $
+ * @version $Id: StreamDemo.java, v 0.1 2018年10月21日 上午10:50 fzw.fzw Exp $
  */
 public class StreamDemo {
     public static void main(String[] args) {

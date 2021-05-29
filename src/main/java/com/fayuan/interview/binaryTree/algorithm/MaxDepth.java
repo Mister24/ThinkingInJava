@@ -1,15 +1,15 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.binaryTree.algorithm;
+package com.fzw.interview.binaryTree.algorithm;
 
-import com.fayuan.interview.binaryTree.treeNode.TreeNode;
+import com.fzw.interview.binaryTree.treeNode.TreeNode;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: MaxDepth.java, v 0.1 2018年03月27日 下午8:42 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: MaxDepth.java, v 0.1 2018年03月27日 下午8:42 fzw.fzw Exp $
  */
 public class MaxDepth {
 

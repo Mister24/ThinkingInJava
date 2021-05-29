@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2020 All Rights Reserved.
  */
-package com.fayuan.cache.caffeine;
+package com.fzw.cache.caffeine;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import org.springframework.cache.Cache;

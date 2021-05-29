@@ -1,4 +1,4 @@
-package com.fayuan.istio;
+package com.fzw.istio;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.fayuan.eurekaserver;
+package com.fzw.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

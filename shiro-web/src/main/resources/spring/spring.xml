@@ -29,7 +29,7 @@
         <property name="realm" ref="realm"/>
     </bean>
 
-    <bean id="realm" class="com.fayuan.shiro.realm.CustomRealm">
+    <bean id="realm" class="com.fzw.shiro.realm.CustomRealm">
         <property name="credentialsMatcher" ref="credentialsMatcher"/>
     </bean>
 

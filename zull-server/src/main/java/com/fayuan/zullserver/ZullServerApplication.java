@@ -1,4 +1,4 @@
-package com.fayuan.zullserver;
+package com.fzw.zullserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

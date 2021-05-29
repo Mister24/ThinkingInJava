@@ -11,8 +11,8 @@ import java.util.stream.Stream;
 /**
  * 艺术家
  *
- * @author fayuan.fzw
- * @version $Id: Artist.java, v 0.1 2018年10月21日 上午10:52 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Artist.java, v 0.1 2018年10月21日 上午10:52 fzw.fzw Exp $
  */
 public class Artist {
 

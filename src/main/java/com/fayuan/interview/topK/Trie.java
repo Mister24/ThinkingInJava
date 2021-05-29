@@ -1,13 +1,13 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.topK;
+package com.fzw.interview.topK;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Trie.java, v 0.1 2018年03月30日 上午10:39 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Trie.java, v 0.1 2018年03月30日 上午10:39 fzw.fzw Exp $
  */
 public class Trie {
 

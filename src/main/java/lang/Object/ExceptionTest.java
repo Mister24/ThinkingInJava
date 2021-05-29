@@ -8,8 +8,8 @@ import org.junit.Test;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: ExceptionTest.java, v 0.1 2018年06月17日 下午1:33 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ExceptionTest.java, v 0.1 2018年06月17日 下午1:33 fzw.fzw Exp $
  */
 public class ExceptionTest {
 

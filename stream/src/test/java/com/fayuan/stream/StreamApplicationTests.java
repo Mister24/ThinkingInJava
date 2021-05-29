@@ -1,4 +1,4 @@
-package com.fayuan.stream;
+package com.fzw.stream;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

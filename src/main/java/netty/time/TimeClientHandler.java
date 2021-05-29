@@ -12,8 +12,8 @@ import java.util.Date;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: TimeClientHandler.java, v 0.1 2018年10月16日 下午6:00 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: TimeClientHandler.java, v 0.1 2018年10月16日 下午6:00 fzw.fzw Exp $
  */
 public class TimeClientHandler extends ChannelInboundHandlerAdapter {
     private ByteBuf buf;

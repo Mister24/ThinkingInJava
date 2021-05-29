@@ -1,16 +1,16 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.binaryTree.algorithm;
+package com.fzw.interview.binaryTree.algorithm;
 
-import com.fayuan.interview.binaryTree.treeNode.TreeNode;
+import com.fzw.interview.binaryTree.treeNode.TreeNode;
 
 /**
  * 获取第k层节点总个数
  *
- * @author fayuan.fzw
- * @version $Id: GetKthLevelNodeNumber.java, v 0.1 2018年03月28日 上午1:49 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: GetKthLevelNodeNumber.java, v 0.1 2018年03月28日 上午1:49 fzw.fzw Exp $
  */
 public class GetKthLevelNodeNumber {
 

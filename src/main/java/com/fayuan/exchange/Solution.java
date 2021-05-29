@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.exchange;
+package com.fzw.exchange;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,8 +10,8 @@ import java.util.List;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Solution.java, v 0.1 2018年04月05日 下午1:58 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Solution.java, v 0.1 2018年04月05日 下午1:58 fzw.fzw Exp $
  */
 public class Solution {
 

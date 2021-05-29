@@ -14,8 +14,8 @@ import io.netty.util.CharsetUtil;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: EchoServerHandler.java, v 0.1 2018年10月05日 下午10:05 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: EchoServerHandler.java, v 0.1 2018年10月05日 下午10:05 fzw.fzw Exp $
  */
 
 @Sharable

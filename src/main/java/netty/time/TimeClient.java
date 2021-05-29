@@ -15,8 +15,8 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: TimeClient.java, v 0.1 2018年10月16日 下午5:56 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: TimeClient.java, v 0.1 2018年10月16日 下午5:56 fzw.fzw Exp $
  */
 public class TimeClient {
     public static void main(String[] args) throws Exception {

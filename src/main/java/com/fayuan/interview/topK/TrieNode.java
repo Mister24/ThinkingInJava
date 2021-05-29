@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.topK;
+package com.fzw.interview.topK;
 
 /**
  * 字节数节点类
  *
- * @author fayuan.fzw
- * @version $Id: TrieNode.java, v 0.1 2018年03月30日 上午10:54 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: TrieNode.java, v 0.1 2018年03月30日 上午10:54 fzw.fzw Exp $
  */
 public class TrieNode {
 

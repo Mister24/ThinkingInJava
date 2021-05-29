@@ -1,5 +1,5 @@
 /**
- * Fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2017-2018 All Rights Reserved.
  */
 package dubbo.loadbalance;

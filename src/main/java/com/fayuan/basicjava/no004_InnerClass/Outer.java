@@ -1,4 +1,4 @@
-package com.fayuan.basicjava.no004_InnerClass;
+package com.fzw.basicjava.no004_InnerClass;
 
 class Outer {
 

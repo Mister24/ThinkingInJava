@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.singleton;
+package com.fzw.interview.singleton;
 
 /**
  * 枚举写法的单例模式
  *
- * @author fayuan.fzw
- * @version $Id: Singleton6.java, v 0.1 2018年03月21日 下午12:35 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Singleton6.java, v 0.1 2018年03月21日 下午12:35 fzw.fzw Exp $
  */
 public enum Singleton6 {
 

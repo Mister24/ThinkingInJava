@@ -1,5 +1,5 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
 package db.redis;
@@ -16,8 +16,8 @@ import java.util.Set;
 /**
  * 验证redis的5中基本类型：String、List、Hash、Set、有序Set。
  *
- * @author fayuan.fzw
- * @version $Id: Redis.java, v 0.1 2018年09月25日 上午12:11 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Redis.java, v 0.1 2018年09月25日 上午12:11 fzw.fzw Exp $
  */
 public class Redis {
     public static void main(String[] args) {

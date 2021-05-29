@@ -15,8 +15,8 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: DiscardServer.java, v 0.1 2018年10月16日 下午5:45 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: DiscardServer.java, v 0.1 2018年10月16日 下午5:45 fzw.fzw Exp $
  */
 public class DiscardServer {
 

@@ -12,8 +12,8 @@ import java.util.List;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: TimeDecoder.java, v 0.1 2018年10月16日 下午9:38 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: TimeDecoder.java, v 0.1 2018年10月16日 下午9:38 fzw.fzw Exp $
  */
 public class TimeDecoder extends ByteToMessageDecoder {
     @Override

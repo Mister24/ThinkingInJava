@@ -1,18 +1,18 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.list;
+package com.fzw.interview.list;
 
-import com.fayuan.interview.list.listnode.ListNode;
+import com.fzw.interview.list.listnode.ListNode;
 
 import java.util.Stack;
 
 /**
  * 从尾到头打印单链表
  *
- * @author fayuan.fzw
- * @version $Id: ReversePrint.java, v 0.1 2018年03月27日 上午1:34 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ReversePrint.java, v 0.1 2018年03月27日 上午1:34 fzw.fzw Exp $
  */
 public class ReversePrint {
 

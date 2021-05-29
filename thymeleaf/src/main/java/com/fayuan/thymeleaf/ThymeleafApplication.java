@@ -1,4 +1,4 @@
-package com.fayuan.thymeleaf;
+package com.fzw.thymeleaf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Main.java, v 0.1 2018年04月16日 下午7:02 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Main.java, v 0.1 2018年04月16日 下午7:02 fzw.fzw Exp $
  */
 public class Main {
     public static void main(String[] args) {

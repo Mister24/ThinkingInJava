@@ -2,9 +2,9 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.oauth.repository;
+package com.fzw.oauth.repository;
 
-import com.fayuan.oauth.entity.UserOrganization;
+import com.fzw.oauth.entity.UserOrganization;
 import org.springframework.data.repository.CrudRepository;
 
 /**

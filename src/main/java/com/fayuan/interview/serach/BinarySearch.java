@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.serach;
+package com.fzw.interview.serach;
 
 /**
  * 二分查找（递归 + 非递归）
  *
- * @author fayuan.fzw
- * @version $Id: BinarySearch.java, v 0.1 2018年03月21日 下午12:43 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: BinarySearch.java, v 0.1 2018年03月21日 下午12:43 fzw.fzw Exp $
  */
 public class BinarySearch {
 

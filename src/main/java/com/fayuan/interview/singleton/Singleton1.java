@@ -2,14 +2,14 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.singleton;
+package com.fzw.interview.singleton;
 
 /**
  * 饿汉式
  * 第一次引用该类的时候就创建实例，而不管实际是否需要创建
  *
- * @author fayuan.fzw
- * @version $Id: Singleton1.java, v 0.1 2018年03月20日 下午11:13 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Singleton1.java, v 0.1 2018年03月20日 下午11:13 fzw.fzw Exp $
  */
 public class Singleton1 {
 

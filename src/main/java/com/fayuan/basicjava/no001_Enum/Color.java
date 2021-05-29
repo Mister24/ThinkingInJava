@@ -1,8 +1,8 @@
 /**
- * Fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2017-2018 All Rights Reserved.
  */
-package com.fayuan.basicjava.no001_Enum;
+package com.fzw.basicjava.no001_Enum;
 
 /**
  *

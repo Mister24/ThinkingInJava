@@ -13,8 +13,8 @@ import io.netty.util.CharsetUtil;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: EchoClientHandler.java, v 0.1 2018年10月06日 上午12:20 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: EchoClientHandler.java, v 0.1 2018年10月06日 上午12:20 fzw.fzw Exp $
  */
 public class EchoClientHandler extends ChannelOutboundHandlerAdapter {
 

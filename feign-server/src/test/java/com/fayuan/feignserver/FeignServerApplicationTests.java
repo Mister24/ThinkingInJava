@@ -1,4 +1,4 @@
-package com.fayuan.feignserver;
+package com.fzw.feignserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

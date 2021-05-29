@@ -10,8 +10,8 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: DiscardServerHandler.java, v 0.1 2018年10月16日 下午5:38 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: DiscardServerHandler.java, v 0.1 2018年10月16日 下午5:38 fzw.fzw Exp $
  */
 public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
 

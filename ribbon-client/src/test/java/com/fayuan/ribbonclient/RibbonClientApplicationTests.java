@@ -1,4 +1,4 @@
-package com.fayuan.ribbonclient;
+package com.fzw.ribbonclient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

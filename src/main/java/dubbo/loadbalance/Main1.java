@@ -12,8 +12,8 @@ import java.util.TreeSet;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Main1.java, v 0.1 2018年04月16日 下午7:49 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Main1.java, v 0.1 2018年04月16日 下午7:49 fzw.fzw Exp $
  */
 public class Main1 {
 

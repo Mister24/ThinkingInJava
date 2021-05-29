@@ -12,8 +12,8 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: ButtonDemo.java, v 0.1 2018年10月20日 下午9:58 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ButtonDemo.java, v 0.1 2018年10月20日 下午9:58 fzw.fzw Exp $
  */
 public class ButtonDemo {
     public static void main(String[] args) {

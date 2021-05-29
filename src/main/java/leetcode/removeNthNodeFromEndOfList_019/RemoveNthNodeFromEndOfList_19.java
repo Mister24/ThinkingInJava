@@ -7,8 +7,8 @@ import java.util.Stack;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: RemoveNthNodeFromEndOfList_19.java, v 0.1 2018年07月22日 上午12:18 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: RemoveNthNodeFromEndOfList_19.java, v 0.1 2018年07月22日 上午12:18 fzw.fzw Exp $
  */
 public class RemoveNthNodeFromEndOfList_19 {
 

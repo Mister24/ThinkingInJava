@@ -17,8 +17,8 @@ import java.net.InetSocketAddress;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: EchoClient.java, v 0.1 2018年10月06日 下午3:39 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: EchoClient.java, v 0.1 2018年10月06日 下午3:39 fzw.fzw Exp $
  */
 public class EchoClient {
     private String host;

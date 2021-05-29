@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.file;
+package com.fzw.file;
 
 /**
  * SFTP连接信息
  *
- * @author fayuan.fzw
- * @version $Id: SFTPLogInInfo.java, v 0.1 2018年06月27日 上午11:25 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: SFTPLogInInfo.java, v 0.1 2018年06月27日 上午11:25 fzw.fzw Exp $
  */
 public class SFTPLogInInfo {
 

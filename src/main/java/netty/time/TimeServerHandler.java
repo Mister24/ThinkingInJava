@@ -12,8 +12,8 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: TimeServerHandler.java, v 0.1 2018年10月16日 下午5:54 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: TimeServerHandler.java, v 0.1 2018年10月16日 下午5:54 fzw.fzw Exp $
  */
 public class TimeServerHandler extends ChannelInboundHandlerAdapter {
     @Override

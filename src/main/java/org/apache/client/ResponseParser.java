@@ -9,8 +9,8 @@ import java.util.Map;
 /**
  * 回复消息
  *
- * @author fayuan.fzw
- * @version $Id: ResponseParser.java, v 0.1 2018年10月08日 下午7:59 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ResponseParser.java, v 0.1 2018年10月08日 下午7:59 fzw.fzw Exp $
  */
 public interface ResponseParser {
 

@@ -1,8 +1,8 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.maker;
+package com.fzw.maker;
 import java.lang.Math;
 /**
  *

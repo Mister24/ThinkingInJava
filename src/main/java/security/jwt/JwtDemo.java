@@ -37,7 +37,7 @@ import java.util.Map;
          *  公共的声明可以添加任何的信息，一般添加用户的相关信息或其他业务需要的必要信息.但不建议添加敏感信息，因为该部分在客户端可解密。
          * 私有的声明包含：
          *  私有声明是提供者和消费者所共同定义的声明，一般不建议存放敏感信息，因为base64是对称解密的，意味着该部分信息可以归类为明文信息，例如
-         *      {"name":"mr.24","age":"24","company":"antFin"}
+         *      {"name":"mr.24","age":"24","company":"fzw"}
  * 然后将其进行base64加密，得到jwt的第二部分：eyJuYW1lIjoibXIuMjQiLCJhZ2UiOiIyNCIsImNvbXBhbnkiOiJhbnRGaW4ifQ==
  *
  * 三、signature包含3部分信息：base64处理过的header、base64处理过的payload、secret。
@@ -107,7 +107,7 @@ public class JwtDemo {
         String jwtToken = JWT.create().withHeader(map)
                 .withClaim("name", "mr.24")
                 .withClaim("age", "24")
-                .withClaim("company", "antFin")
+                .withClaim("company", "fzw")
                 .withIssuedAt(iatDate)
                 .withExpiresAt(expireDate)
                 .sign(Algorithm.HMAC256(SECRET_STRING));

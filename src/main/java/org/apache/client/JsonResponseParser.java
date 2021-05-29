@@ -17,8 +17,8 @@ import java.util.Map;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: JsonResponseParser.java, v 0.1 2018年10月08日 下午8:02 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: JsonResponseParser.java, v 0.1 2018年10月08日 下午8:02 fzw.fzw Exp $
  */
 public class JsonResponseParser implements ResponseParser {
     /**

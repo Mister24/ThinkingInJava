@@ -6,8 +6,8 @@ package lang.Object;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: SuTest.java, v 0.1 2018年06月19日 下午6:05 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: SuTest.java, v 0.1 2018年06月19日 下午6:05 fzw.fzw Exp $
  */
 public class SuTest {
     public static void main(String[] args) {

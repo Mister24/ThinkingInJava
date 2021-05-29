@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.binaryTree.treeNode;
+package com.fzw.interview.binaryTree.treeNode;
 
 /**
  * 二叉树节点类
  *
- * @author fayuan.fzw
- * @version $Id: TreeNode.java, v 0.1 2018年03月27日 下午8:41 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: TreeNode.java, v 0.1 2018年03月27日 下午8:41 fzw.fzw Exp $
  */
 public class TreeNode {
 

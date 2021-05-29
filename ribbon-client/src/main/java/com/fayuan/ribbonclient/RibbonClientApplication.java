@@ -1,4 +1,4 @@
-package com.fayuan.ribbonclient;
+package com.fzw.ribbonclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

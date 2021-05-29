@@ -1,4 +1,4 @@
-package com.fayuan.eurekaclient;
+package com.fzw.eurekaclient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

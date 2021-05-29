@@ -21,8 +21,8 @@ import java.util.Map;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: HttpClientUtil.java, v 0.1 2018年10月08日 下午7:52 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: HttpClientUtil.java, v 0.1 2018年10月08日 下午7:52 fzw.fzw Exp $
  */
 public class HttpClientUtil {
     private static final Logger logger = LoggerFactory.getLogger(HttpClientUtil.class);

@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.basicjava.version8;
+package com.fzw.basicjava.version8;
 
 import org.junit.Test;
 
@@ -11,8 +11,8 @@ import java.util.stream.Stream;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: StreamTech.java, v 0.1 2018年06月28日 下午4:53 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: StreamTech.java, v 0.1 2018年06月28日 下午4:53 fzw.fzw Exp $
  */
 public class StreamTech {
 

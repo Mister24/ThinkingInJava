@@ -1,4 +1,4 @@
-package com.fayuan.zullserver;
+package com.fzw.zullserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

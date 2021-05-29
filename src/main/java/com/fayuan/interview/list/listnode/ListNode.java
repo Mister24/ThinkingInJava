@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.list.listnode;
+package com.fzw.interview.list.listnode;
 
 /**
  * 节点类
  *
- * @author fayuan.fzw
- * @version $Id: ListNode.java, v 0.1 2018年03月26日 下午7:27 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ListNode.java, v 0.1 2018年03月26日 下午7:27 fzw.fzw Exp $
  */
 public class ListNode {
 

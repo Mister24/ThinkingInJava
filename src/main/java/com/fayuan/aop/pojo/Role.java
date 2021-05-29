@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.aop.pojo;
+package com.fzw.aop.pojo;
 
 import lombok.Data;
 

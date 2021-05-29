@@ -10,8 +10,8 @@ import java.util.function.BinaryOperator;
 /**
  * 指明lambda表达式的几种使用方法
  *
- * @author fayuan.fzw
- * @version $Id: DifferentKindOfLambdas.java, v 0.1 2018年10月20日 下午10:05 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: DifferentKindOfLambdas.java, v 0.1 2018年10月20日 下午10:05 fzw.fzw Exp $
  */
 public class DifferentKindOfLambdas {
 

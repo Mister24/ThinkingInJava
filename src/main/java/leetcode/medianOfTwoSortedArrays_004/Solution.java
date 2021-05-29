@@ -1,13 +1,13 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
 package leetcode.medianOfTwoSortedArrays_004;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Solution.java, v 0.1 2018年09月06日 下午10:26 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Solution.java, v 0.1 2018年09月06日 下午10:26 fzw.fzw Exp $
  */
 public class Solution {
     public static void main(String[] args) {

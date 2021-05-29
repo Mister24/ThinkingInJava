@@ -1,4 +1,4 @@
-package com.fayuan.oauth;
+package com.fzw.oauth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

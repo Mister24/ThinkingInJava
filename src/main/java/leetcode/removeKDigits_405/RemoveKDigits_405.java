@@ -6,8 +6,8 @@ package leetcode.removeKDigits_405;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: RemoveKDigits_405.java, v 0.1 2018年08月02日 下午8:00 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: RemoveKDigits_405.java, v 0.1 2018年08月02日 下午8:00 fzw.fzw Exp $
  */
 public class RemoveKDigits_405 {
 

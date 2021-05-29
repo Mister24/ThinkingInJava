@@ -1,13 +1,13 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.file;
+package com.fzw.file;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: SFTP.java, v 0.1 2018年06月27日 下午5:38 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: SFTP.java, v 0.1 2018年06月27日 下午5:38 fzw.fzw Exp $
  */
 public class SFTP {
 

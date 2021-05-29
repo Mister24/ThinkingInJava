@@ -2,16 +2,16 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.list;
+package com.fzw.interview.list;
 
-import com.fayuan.interview.list.listnode.ListNode;
+import com.fzw.interview.list.listnode.ListNode;
 
 import java.util.HashMap;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: ListLoop.java, v 0.1 2018年03月26日 下午9:02 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ListLoop.java, v 0.1 2018年03月26日 下午9:02 fzw.fzw Exp $
  */
 public class ListLoop {
 

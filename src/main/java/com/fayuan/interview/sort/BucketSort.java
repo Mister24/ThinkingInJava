@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.sort;
+package com.fzw.interview.sort;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: BucketSort.java, v 0.1 2018年03月23日 下午12:13 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: BucketSort.java, v 0.1 2018年03月23日 下午12:13 fzw.fzw Exp $
  */
 public class BucketSort {
 

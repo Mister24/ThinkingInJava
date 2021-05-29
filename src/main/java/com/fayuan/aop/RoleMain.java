@@ -2,13 +2,13 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.aop;
+package com.fzw.aop;
 
-import com.fayuan.aop.interceptor.Interceptor;
-import com.fayuan.aop.interceptor.RoleInterceptor;
-import com.fayuan.aop.pojo.Role;
-import com.fayuan.aop.service.RoleService;
-import com.fayuan.aop.service.impl.RoleServiceImpl;
+import com.fzw.aop.interceptor.Interceptor;
+import com.fzw.aop.interceptor.RoleInterceptor;
+import com.fzw.aop.pojo.Role;
+import com.fzw.aop.service.RoleService;
+import com.fzw.aop.service.impl.RoleServiceImpl;
 
 /**
  * @author mr.24

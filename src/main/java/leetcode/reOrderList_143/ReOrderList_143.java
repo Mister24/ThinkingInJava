@@ -1,5 +1,5 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
 package leetcode.reOrderList_143;
@@ -7,8 +7,8 @@ package leetcode.reOrderList_143;
 /**
  * 链表重新排序
  *
- * @author fayuan.fzw
- * @version $Id: ReOrderList_143.java, v 0.1 2018年07月23日 下午7:58 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: ReOrderList_143.java, v 0.1 2018年07月23日 下午7:58 fzw.fzw Exp $
  */
 public class ReOrderList_143 {
 

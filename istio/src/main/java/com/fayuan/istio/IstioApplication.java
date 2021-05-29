@@ -1,4 +1,4 @@
-package com.fayuan.istio;
+package com.fzw.istio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -2,15 +2,15 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.serach;
+package com.fzw.interview.serach;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: SubListTest.java, v 0.1 2018年06月07日 下午1:21 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: SubListTest.java, v 0.1 2018年06月07日 下午1:21 fzw.fzw Exp $
  */
 public class SubListTest {
     public static void main(String[] args) {

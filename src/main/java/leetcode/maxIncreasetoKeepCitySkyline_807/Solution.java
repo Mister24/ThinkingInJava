@@ -6,8 +6,8 @@ package leetcode.maxIncreasetoKeepCitySkyline_807;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Solution.java, v 0.1 2018年08月26日 上午10:34 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Solution.java, v 0.1 2018年08月26日 上午10:34 fzw.fzw Exp $
  */
 public class Solution {
 

@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.security;
+package com.fzw.interview.security;
 
 import org.apache.commons.codec.binary.Base64;
 
@@ -16,8 +16,8 @@ import java.security.spec.X509EncodedKeySpec;
 /**
  * RSA算法
  *
- * @author fayuan.fzw
- * @version $Id: RSAAlgorithm.java, v 0.1 2018年04月03日 下午6:47 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: RSAAlgorithm.java, v 0.1 2018年04月03日 下午6:47 fzw.fzw Exp $
  */
 public class RSAAlgorithm {
 

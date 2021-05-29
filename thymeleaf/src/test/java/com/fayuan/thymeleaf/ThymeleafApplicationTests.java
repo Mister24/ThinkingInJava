@@ -1,4 +1,4 @@
-package com.fayuan.thymeleaf;
+package com.fzw.thymeleaf;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

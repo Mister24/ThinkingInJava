@@ -1,5 +1,5 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
 package netty;
@@ -19,8 +19,8 @@ import java.net.InetSocketAddress;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: HttpServer.java, v 0.1 2018年09月28日 下午9:43 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: HttpServer.java, v 0.1 2018年09月28日 下午9:43 fzw.fzw Exp $
  */
 public class HttpServer {
 

@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.basicjava.no004_InnerClass;
+package com.fzw.basicjava.no004_InnerClass;
 
 /**
  * 外部类与内部类

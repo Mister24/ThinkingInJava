@@ -1,10 +1,10 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.binaryTree.algorithm;
+package com.fzw.interview.binaryTree.algorithm;
 
-import com.fayuan.interview.binaryTree.treeNode.TreeNode;
+import com.fzw.interview.binaryTree.treeNode.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -12,8 +12,8 @@ import java.util.Queue;
 /**
  * 获取二叉树节点的总个数
  *
- * @author fayuan.fzw
- * @version $Id: GetTreeNodeNumber.java, v 0.1 2018年03月29日 下午6:00 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: GetTreeNodeNumber.java, v 0.1 2018年03月29日 下午6:00 fzw.fzw Exp $
  */
 public class GetTreeNodeNumber {
 

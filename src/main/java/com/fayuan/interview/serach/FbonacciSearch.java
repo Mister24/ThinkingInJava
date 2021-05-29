@@ -2,13 +2,13 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.fayuan.interview.serach;
+package com.fzw.interview.serach;
 
 /**
  * 斐波那契查找
  *
- * @author fayuan.fzw
- * @version $Id: FbonacciSearch.java, v 0.1 2018年03月21日 下午7:49 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: FbonacciSearch.java, v 0.1 2018年03月21日 下午7:49 fzw.fzw Exp $
  */
 public class FbonacciSearch {
 

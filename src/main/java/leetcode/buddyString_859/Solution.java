@@ -1,5 +1,5 @@
 /**
- * fayuan.com Inc.
+ * fzw.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
 package leetcode.buddyString_859;
@@ -8,8 +8,8 @@ import java.util.HashMap;
 
 /**
  *
- * @author fayuan.fzw
- * @version $Id: Solution.java, v 0.1 2018年09月21日 上午12:08 fayuan.fzw Exp $
+ * @author fzw.fzw
+ * @version $Id: Solution.java, v 0.1 2018年09月21日 上午12:08 fzw.fzw Exp $
  */
 public class Solution {
 

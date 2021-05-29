@@ -2,9 +2,9 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2019 All Rights Reserved.
  */
-package com.fayuan.aop;
+package com.fzw.aop;
 
-import com.fayuan.aop.interceptor.Interceptor;
+import com.fzw.aop.interceptor.Interceptor;
 
 /**
  * 代理工厂类
