@@ -6,6 +6,7 @@ package lambdas.java8inaction.chap2;
 
 import org.apache.commons.lang3.StringUtils;
 import org.assertj.core.util.Lists;
+import org.glassfish.jersey.model.internal.RankedComparator;
 import org.junit.Test;
 
 import java.util.Comparator;
