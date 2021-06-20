@@ -36,18 +36,5 @@ public class StreamTest {
                         .max(Comparator.comparing(String::length)).orElse("")
         );
     }
-
-    @Data
-    @Builder
-    @AllArgsConstructor
-    @NoArgsConstructor
-    static class Dish {
-        String name;
-        boolean vegetarianl;
-        int calories;
-        Type type;
-    }
-
-    enum Type {MEAT, FISH, OTHER}
 }
 
