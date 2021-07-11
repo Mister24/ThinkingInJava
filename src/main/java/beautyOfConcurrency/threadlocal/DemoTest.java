@@ -9,10 +9,17 @@ package beautyOfConcurrency.threadlocal;
  * @version Id: DemoTest, v 1.0 2021/7/11 8:49 下午 Exp $$
  */
 public class DemoTest {
-    public static InheritableThreadLocal<String> ITL = new InheritableThreadLocal<>();
+    /**
+     * ThreadLocal 父子线程值隔离
+     */
+    private static ThreadLocal<String> TL = new ThreadLocal<>();
+    /**
+     * InheritableThreadLocal 父线程值传递给子线程
+     */
+    private static InheritableThreadLocal<String> ITL = new InheritableThreadLocal<>();
+
     public static void main(String[] args) {
 
-        ThreadLocal<String> TL = new ThreadLocal<>();
         TL.set("123");
         ITL.set("234");
 
@@ -28,7 +35,9 @@ public class DemoTest {
         });
 
         thread.start();
+        // 显式清空
         TL.remove();
+        // 显式清空
         ITL.remove();
     }
 
