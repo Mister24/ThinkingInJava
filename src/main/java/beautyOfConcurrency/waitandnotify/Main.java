@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package beautyOfConcurrency.WaitAndNotify;
+package beautyOfConcurrency.waitandnotify;
 
 /**
  * @author mr.24
