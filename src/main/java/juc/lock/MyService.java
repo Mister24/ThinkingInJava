@@ -20,9 +20,12 @@ public class MyService {
      */
     public void testMethod() {
         lock.lock();
-        for (int i = 0; i < 5; i++) {
-            System.out.println("threadName=" + Thread.currentThread().getName() + " " + (i + 1));
+        try {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("threadName=" + Thread.currentThread().getName() + " " + (i + 1));
+            }
+        } finally {
+            lock.unlock();
         }
-        lock.unlock();
     }
 }
