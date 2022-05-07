@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - openjdk8
+git:
+  quiet: true
+cache:
+  directories:
+    - $HOME/.m2
+script:
+  - export MAVEN_SKIP_RC=true
+  - export MAVEN_OPTS=" -Xmx1g -XX:ReservedCodeCacheSize=128m -Dorg.slf4j.simpleLogger.defaultLogLevel=warn -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn"
+  - mvn -B clean test -Dlogging.level.org.springframework=WARN
