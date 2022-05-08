@@ -1,4 +1,4 @@
-package corejava.chap05_inheritance;
+package corejava.chap05_inheritance.sample;
 
 public class Manager extends Employee {
     private double bonus;
