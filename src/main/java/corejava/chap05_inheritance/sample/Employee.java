@@ -1,10 +1,13 @@
 package corejava.chap05_inheritance.sample;
 
+import lombok.ToString;
+
 import java.time.LocalDate;
 
 /**
  * @author mr.24
  */
+@ToString
 public class Employee {
     private String name;
     private double salary;
