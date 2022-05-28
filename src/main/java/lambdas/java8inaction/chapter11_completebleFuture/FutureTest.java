@@ -5,7 +5,7 @@ import org.apache.http.client.utils.DateUtils;
 import java.util.Date;
 import java.util.concurrent.*;
 
-public class Test {
+public class FutureTest {
     public static void main(String[] args) throws InterruptedException {
         ExecutorService executorService = Executors.newCachedThreadPool();
         Future<Double> future = executorService.submit(new Callable<Double>() {
