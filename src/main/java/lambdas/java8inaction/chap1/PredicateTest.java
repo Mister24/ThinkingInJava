@@ -4,6 +4,11 @@
  */
 package lambdas.java8inaction.chap1;
 
+import com.google.common.collect.Lists;
+import org.springframework.util.Assert;
+import org.springframework.util.CollectionUtils;
+
+import java.util.List;
 import java.util.function.Predicate;
 
 /**
@@ -12,8 +17,7 @@ import java.util.function.Predicate;
  */
 public class PredicateTest {
     public static void main(String[] args) {
-        String[] strings = new String[] {"123", "234","23"};
-
+        Predicate predicate = o -> !CollectionUtils.isEmpty((List) o);
+        Assert.isTrue(predicate.test(Lists.newArrayList("1")));
     }
-
 }
