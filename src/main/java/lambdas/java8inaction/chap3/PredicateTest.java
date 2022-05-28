@@ -2,7 +2,7 @@
  * @Company Mister24.com Inc.
  * @Copyright Copyright (c) 2016-2021 All Rights Reserved.
  */
-package lambdas.java8inaction.chap1;
+package lambdas.java8inaction.chap3;
 
 import com.google.common.collect.Lists;
 import org.springframework.util.Assert;
