@@ -1,4 +1,4 @@
-package interviews.equals;
+package foranewlife.equals;
 
 class Cat {
     

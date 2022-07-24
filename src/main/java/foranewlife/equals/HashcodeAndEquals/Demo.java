@@ -1,4 +1,4 @@
-package interviews.equals.HashcodeAndEquals;
+package foranewlife.equals.HashcodeAndEquals;
 
 public class Demo {
     
